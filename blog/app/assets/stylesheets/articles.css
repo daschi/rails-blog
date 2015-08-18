@@ -1,0 +1,67 @@
+html {
+  background: url(bkground.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2 {
+  font-size: 2em;
+  color: #ff3232;
+  text-align: center;
+}
+
+body {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.table-center {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+* {
+  font-family: 'Slabo 27px', serif;
+}
+
+table {
+  width: 20%;
+}
+
+td {
+  padding: 5px;
+}
+
+#form-title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+#form-text {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #00aedb;
+}
+
+/* visited link */
+a:visited {
+    color: #0066ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e30074;
+}
+
+.submit-style {
+  background-color: #7fcc7f;
+  font-size: 1em;
+}
