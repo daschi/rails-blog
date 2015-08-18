@@ -1,0 +1,53 @@
+h1, h2 {
+  font-size: 2em;
+  color: #ff3232;
+  text-align: center;
+}
+
+body {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.table-center {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+* {
+  font-family: 'Slabo 27px', serif;
+}
+
+table {
+  width: 20%;
+}
+
+td {
+  padding: 5px;
+}
+
+/* unvisited link */
+a:link {
+    color: #00aedb;
+}
+
+/* visited link */
+a:visited {
+    color: #004488;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e30074;
+}
+
+/* selected link */
+a:active {
+    color: #004488;
+}
+
+.submit-style {
+  background-color: #7fcc7f;
+  font-size: 1em;
+}
