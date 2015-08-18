@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 body {
-  padding-top: 20px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -35,6 +35,17 @@ td {
   padding: 5px;
 }
 
+#form-title {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+#form-text {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+
 /* unvisited link */
 a:link {
     color: #00aedb;
@@ -42,17 +53,12 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #004488;
+    color: #0066ff;
 }
 
 /* mouse over link */
 a:hover {
     color: #e30074;
-}
-
-/* selected link */
-a:active {
-    color: #004488;
 }
 
 .submit-style {
