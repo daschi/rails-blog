@@ -1,6 +1,6 @@
 <h1>Listing all Daniela and Jaclyn's articles</h1>
 
-<%= link_to 'New article', new_article_path %>
+<%= link_to 'New article', new_article_path, remote: true %>
 
 <table class="table-center">
   <tr>
@@ -18,3 +18,5 @@
     </tr>
   <% end %>
 </table>
+
+<div id="article-form" style="display:none;"></div>

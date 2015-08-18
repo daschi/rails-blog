@@ -2,9 +2,13 @@ class ArticlesController < ApplicationController
   http_basic_authenticate_with name: "dhh", password: "secret",
   except: [:index, :show]
 
-  def index
-    @articles = Article.all
-  end
+  before_action :all_articles, only: [:index, :create]
+  respond_to :html, :js
+
+# in order to play with AJAX
+  # def index
+  #   @articles = Article.all
+  # end
 
   def show
     @article = Article.find(params[:id])
@@ -48,6 +52,10 @@ class ArticlesController < ApplicationController
   end
 
   private
+  def all_articles
+    @articles = Article.all
+  end
+
   def article_params
     params.require(:article).permit(:title, :text)
   end
